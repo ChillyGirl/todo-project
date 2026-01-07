@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/themes.css">
     <!-- Иконки для красоты -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/icons8-50.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
 </head>
 <body class="light-theme"> <!-- Класс для темы по умолчанию -->
     <div class="container">
@@ -26,23 +28,16 @@
             <input type="text" id="taskInput" placeholder="Что нужно сделать?">
             <button id="addBtn"><i class="fas fa-plus"></i> Добавить</button>
         </div>
-       <!-- 
-        <div class="filters">
-            <button class="filter-btn active" data-filter="all">Все</button>
-            <button class="filter-btn" data-filter="active">Активные</button>
-            <button class="filter-btn" data-filter="completed">Завершенные</button>
-        </div>
-        -->
 
-         <div class="filters">
-        <button class="filter-btn active" data-filter="all">
-            <i class="fas fa-list"></i> Все
-        </button>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">
+                <i class="fas fa-list"></i> Все
+            </button>
             <button class="filter-btn" data-filter="active">
-            <i class="fas fa-clock"></i> Активные
-        </button>
-            <button class="filter-btn" data-filter="completed">
-            <i class="fas fa-check-circle"></i> Завершённые
+                <i class="fas fa-clock"></i> Активные
+            </button>
+                <button class="filter-btn" data-filter="completed">
+                <i class="fas fa-check-circle"></i> Завершённые
         </button>
         </div>
 
