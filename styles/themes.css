@@ -1,0 +1,60 @@
+/* Темы оформления приложения */
+
+/* Светлая тема (по умолчанию) */
+.light-theme {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) !important;
+    color: #2c3e50;
+}
+
+.light-theme .container {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Тёмная тема */
+.dark-theme {
+    background: linear-gradient(135deg, #2c3e50 0%, #1a1a2e 100%) !important;
+    color: #ecf0f1;
+}
+
+.dark-theme .container {
+    background: rgba(40, 44, 52, 0.95);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme #taskInput {
+    background: #3a3f4b;
+    border-color: #4a4f5b;
+    color: #ecf0f1;
+}
+
+.dark-theme .task-item {
+    background: #3a3f4b;
+    border-left-color: #3498db;
+}
+
+/* Синяя тема */
+.blue-theme {
+    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%) !important;
+    color: white;
+}
+
+.blue-theme .container {
+    background: rgba(52, 152, 219, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.blue-theme h1 {
+    color: white;
+}
+
+.blue-theme #taskInput {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.blue-theme #taskInput::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
